@@ -1,0 +1,1714 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+
+
+
+body {
+    
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+@media screen and (max-width: 1050px) {
+    
+    html, body {
+        
+        width: 100%;
+        min-width: 100%;
+        overflow-x: hidden;
+       
+    }
+}
+
+
+a {
+    
+    text-decoration: none;
+    color: #4f5863;
+    
+}
+
+@media screen and (max-width: 750px) {
+    
+    a {
+        
+        margin: 0px;
+        padding-left: 3px;
+    }
+}
+
+
+/************* PADRAO DE TAMANHO E PADDING/MARGINS COMUN A TODOS OS ELEMENTOS **************/
+
+
+@media screen and (max-width: 1050px) {
+ 
+    
+    .container_16, 
+    .grid_16, .grid_10, 
+    .grid_5, .grid_8  {
+        
+        width: 100% !important;
+        margin: 0;
+        padding: 0 10px;
+        box-sizing: border-box;
+         
+    }
+    
+    .grid_2 {
+        
+        width: 20% !important;
+        margin: 0;
+    }
+
+    .container_16 .prefix_3 {
+        
+        padding: 0;
+    }
+    
+    section.container_16 .prefix_6 {
+        
+        width: 50% !important;
+        padding: 0px;
+    }
+    
+
+}
+
+
+
+
+
+/*********** FINAL DE SEÇÃO DE CONTEUDO PARA TODOS OS ELEMENTOS **********/
+
+
+
+
+/******* TAMANHO PADRÃO DE IMAGENS NO CELULAR MOBILE ********/
+
+
+
+/****** PADRAO TAMANHO DA LOGO NA PAGINA ********/
+
+@media only screen and (max-width: 940px) {
+    
+     img.logo {
+        
+        width: 100%;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 750px) {
+  
+    
+    img.logo {
+        width: 300% !important;
+        
+    }
+    
+    img.baixo { 
+        margin-top: -9px;
+    }
+}
+
+
+/******* FINAL DA SEÇÃO PADRÃO DO TAMANHO DA LOGO NA PAGINA *****/
+
+
+@media screen and (max-width: 750px) {
+    
+    div.grid_2 img {
+        
+        width: 90%;
+    }
+}
+
+
+
+/******** FINAL DO TAMANHO PADRÃO DE IMAGENS NO CELULAR MOBILE ******/
+
+
+
+/************   HEADER - TOPO   *****************/
+
+
+header.container_16 div.topo {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.topo div.grid_2 img {
+    
+    padding: 25px 0px;
+    
+}
+
+
+div.grid_11.prefix_3 {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+
+
+
+
+div.topo div.grid_11.prefix_3 ul.menu 
+div.menuLista li {
+    
+    list-style: none;
+    display: inline-block;
+    padding-left: 30px;
+    color: #babdc0;
+    font-weight: normal;
+    
+}
+
+div.menuLista li.linha-button {
+    
+    z-index: -1;
+    
+}
+
+
+
+
+/****************** FINAL HEADER - TOPO **************/
+
+
+
+
+
+/********* LINHA - CINZA LOGO ABAIXO DO HEADER *************/
+
+
+div.linha-cinza {
+    
+    width: 100%;
+    height: 23px;
+    background: #6f7170;
+    margin-bottom: 5px;
+    
+}
+
+
+/***** FINAL DA LINHA CINZA ABAIXO DO HEADER ***************/
+
+
+
+
+
+
+/*************** SEÇÃO IMAGEM DE FUNDO DA VITRINE **********************/
+
+
+
+
+
+div.imagem-fundo {
+    
+    width: 100%;
+    height: auto;
+    background-image: url('../img/industria-vitrine.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+    
+}
+
+
+
+div.imagem-fundo div.titulo h1 {
+    
+        text-align: left;
+        color: #fff;
+        font-size: 52px;
+        padding-bottom: 45px;
+        padding-top: 30px;
+        line-height: 58px;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    div.conteudo-vitrine div.grid_5.grid_tamanho {
+        
+        padding: 0px;
+        width: 70% !important;
+        
+    }
+    
+    div.imagem-fundo div.titulo h1 {
+        
+        font-size: 52px !important;
+        padding-right: 60px;
+        line-height: 48px;
+        
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    
+    div.imagem-fundo {
+        
+        padding-bottom: 0px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    
+    div.conteudo-vitrine div.grid_5.grid_tamanho {
+        
+        width: 90% !important;
+    }
+    
+   
+    div.imagem-fundo div.titulo h1 {
+        
+        padding-right: 0px !important;
+        line-height: 40px;
+        font-size: 32px !important;
+        
+    }
+}
+
+
+
+
+
+
+
+/************* ESTILO DA IMAGEM DIREITA NA PARTE DE VITRINE *******************/
+
+
+
+section.container_16 div.grid_5 div.imagem-vitrine-direita {
+ 
+    float: right;
+    z-index: -1;
+}
+
+div.imagem-vitrine-direita img {
+  
+    margin-right: -40px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    
+   div.imagem-vitrine-direita img {
+        
+       width: 100%;
+       height: auto;
+       margin-right: -10px;
+
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    
+    div.imagem-vitrine-direita img {
+        
+        width: 100%;
+        padding-top: 30px;
+        
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    div.imagem-vitrine-direita img {
+        
+        padding-top: 60px !important;
+        width: 110%;
+        margin-left: -10px;
+    }
+}
+
+
+
+
+section.container_16 div.grid_4 h1 {
+    
+    padding-bottom: 20px;
+}
+
+
+section.container_16 div.grid_4 button.bt-redondo.vitrine {
+    
+    font-weight: bold;
+}
+
+
+
+/************* ESTILIZANDO CONTEUDO DA VITRINE *******************/
+
+
+
+
+div.imagem-fundo div.conteudo-vitrine {
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 120px;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    div.imagem-fundo div.conteudo-vitrine {
+        
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+}
+
+@media screen and (max-width: 750px) {
+    
+    div.imagem-fundo div.conteudo-vitrine {
+        
+        padding: 50px 0;
+    }
+}
+
+
+
+/************* FINAL CONTEUDO VITRINE ************/
+
+
+
+
+/************** SEÇÃO DE NOSSOS SERVIÇOS *************/
+
+
+
+section.grid_16 div.conteudo {
+    
+    width: 100%;
+    padding-left: 40px;
+    background: #f3f5f9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    
+
+}
+
+
+@media screen and (max-width: 750px) {
+   
+    main.container_16 section.grid_16:last-of-type {
+        
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+  
+    main.container_16 section.grid_16 div.conteudo {
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0px;
+        background: none;
+    }
+    
+    p.texto-topo {
+        
+        font-size: 20px !important;
+    }
+}
+
+
+
+
+section.grid_16 div.conteudo.meio {
+    
+    background: none;
+    padding-bottom: 0;
+}
+
+
+
+p.texto-topo {
+    
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #182c3f;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    p.texto-topo {
+        
+        font-size: 25px;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 940px) {
+    
+     p.texto-topo {
+        
+        font-size: 20px;
+        
+    }
+    
+    
+    p.texto-meio.mobile {
+        
+        width: 100% !important;
+    }
+    
+}
+
+
+
+p.texto-meio {
+    
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #4f5863;
+    
+}
+
+
+@media screen and (max-width: 1050px) {
+    
+    
+    p.texto-meio {
+        
+        font-size: 16px;
+    }
+}
+
+
+
+@media  screen and (max-width: 940px) {
+    
+     p.texto-meio {
+        
+        font-size: 14px;
+      
+    }
+    
+  
+}
+
+
+@media screen and (max-width: 750px) {
+    
+   section.container_16 div.texto-de-produto.grid_6 
+    p.texto-topo {
+        
+        font-size: 28px !important;
+    }
+
+    p.texto-meio {
+        
+        
+        font-size: 14px !important;
+    }
+    
+    p.texto-meio.mobile {
+        
+        line-height: 17px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+/***************** SEÇÃO FINAL DE NOSSOS SERVIÇOS ****************/
+
+
+
+
+
+/**************** ESTILIZANDO SEÇÃO DE PRODUTOS INLINE ****************/
+
+
+
+
+
+
+section.container_16 ul.produtos.grid_10 {
+    
+    padding-top: 30px;
+    
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    section.container_16 div.texto-de-produto.grid_6 {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section.container_16 ul.produtos.grid_10 {
+        
+        display: flex;
+    }
+    
+    section.container_16 ul.produtos li p {
+        
+        float: none;
+        display: block;
+    }
+    
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    section.container_16 ul.produtos.grid_10 {
+        
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    li.grid_5.alpha {
+          
+         margin: 0;
+         width: 50%;
+         padding-top: 0;
+         padding-bottom: 40px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    li.grid_5.omega {
+        
+        margin: 0;
+        width: 50%;
+        padding-top: 0;
+        border: none;
+    }
+    
+}
+
+section.container_16 ul.produtos li img {
+    
+    float: left;
+    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+section.container_16 ul.produtos li p.texto-detalhe {
+    
+    width: 100% !important;
+    text-align: left;
+    float: left !important;
+    font-size: 13px;
+    display: contents !important;
+    color: #4f5863 !important;
+}
+
+section.container_16 ul.produtos li h5 {
+    
+    
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+
+
+
+/**************** SEÇÃO FINAL DE PRODUTOS *****************/
+
+
+
+
+
+
+/************** CONTRATE NOSSOS SERVIÇOS *******************/
+
+
+
+
+div.grid_16 div.conteudo-contrate-servicos 
+div.grid_8.espaco40 {
+
+    padding: 40px 0px 40px 40px;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    section.container_16 div.grid_16 div.conteudo-contrate-servicos 
+    div.grid_8.espaco40 {
+        
+        padding-right: 50px;
+    }
+}
+
+
+
+@media screen and (max-width: 940px) {
+    
+    
+    div.grid_16 div.conteudo-contrate-servicos 
+    div.grid_8.espaco40 {
+        
+        width: 30%;
+        padding-right: 0px;
+
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    section.contrate-servicos {
+        
+        display: block;
+    }
+    
+    .grid_16 {
+        
+        padding-bottom: 60px;
+    }
+}
+
+
+
+section.container_16 div.grid_16 
+div.conteudo-contrate-servicos {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #f3f5f9;
+    height: 205px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    div.grid_16 div.conteudo-contrate-servicos {
+        
+        height: auto !important;
+        flex-direction: column !important;
+        padding: 20px;
+        text-align: left;
+    } 
+    
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    div.grid_16 div.conteudo-contrate-servicos 
+    div.grid_8.espaco40 {
+        
+        width: 100% !important;
+        line-height: 18px;
+        padding-bottom: 0px;
+        
+    }
+    
+}
+
+
+
+p.texto-legislacao {
+    
+    color: #4f5863;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+
+
+section.container_16 div.grid_16 div.conteudo-contrate-servicos 
+div.grid_8.espaco40 p a.leia-mais {
+  
+    color: #e77d2d;
+}
+
+
+/*espaco-esquerda80*/
+
+section.container_16 div.grid_16 div.conteudo-contrate-servicos
+div.grid_8.conteudo-agroindustria {
+    
+    font-size: 16px;
+    margin-left: 80px;
+    color: #4f5863;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    section.container_16 div.grid_16 div.conteudo-contrate-servicos 
+    div.grid_8.conteudo-agroindustria {
+        
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+
+
+
+
+section.container_16 div.grid_16 div.conteudo-contrate-servicos 
+div.grid_8.conteudo-agroindustria p {
+    
+    padding-right: 85px;
+}
+
+
+
+
+@media screen and (max-width: 940px) {
+    
+    section.container_16 div.grid_16 div.conteudo-contrate-servicos 
+    div.grid_8.conteudo-agroindustria p {
+        
+        padding: 0;
+        width: 83%;
+        
+        
+    }
+    
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    section.container_16 div.grid_16 div.conteudo-contrate-servicos 
+    div.grid_8.conteudo-agroindustria {
+        
+        width: 100% !important;
+        padding: 0px 50px 40px 40px;
+    }
+    
+    section.container_16 div.grid_16 div.conteudo-contrate-servicos 
+    div.grid_8.conteudo-agroindustria p {
+        
+        width: 100% !important;
+        padding-bottom: 30px !important;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+/************ FINAL DA SEÇÃO DE CONTRATE NOSSOS SERVIÇOS ************/
+
+
+
+
+
+
+/************ ESTILANDO FORMULARIO FIELDSET E INPUTS **************/
+
+
+
+
+input, button,label {
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+    
+     
+    div.grid_5.ipad {
+        
+        width: 50% !important;
+        padding-right: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+        
+    div.grid_5.ipad {
+        
+        width: 100% !important;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+        
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+     
+    div.conteudo-contato form.formulario fieldset, div.conteudo-contato 
+    form.formulario input {
+        
+        width: 100%;
+    }
+    
+    form.formulario h2 {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+}
+
+
+
+
+form.formulario {
+    
+    padding-top: 100px;
+
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    
+    form.formulario {
+        
+        padding-top: 0px;
+    }
+}
+
+
+
+form.formulario h2 {
+    
+    font-size: 36px;
+    color: #010101;
+    font-weight: bold;
+    padding-bottom: 30px;
+    
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    
+    form.formulario h2 {
+        
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+
+form.formulario fieldset {
+    
+    width: 380px;
+    padding-bottom: 20px;
+    
+}
+
+form.formulario fieldset.botao-enviar-espaco {
+    
+    padding-top: 20px;
+}
+
+
+form.formulario label {
+    
+    font-size: 14px;
+    color: #e77d2d;
+    font-weight: bold;
+}
+
+
+form.formulario fieldset input {
+    
+    width: 380px;
+    border: none;
+    color: #b0bdcc;
+    border-bottom: 2px solid #dee0e6;
+    padding-bottom: 25px;
+    font-size: 16px;
+    padding-top: 8px;
+    
+}
+
+form.formulario fieldset input::placeholder {
+    
+    color: #b0bdcc;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 940px) {
+    
+    form.formulario fieldset input {
+        
+        font-size: 14px;
+    }
+    
+    form.formulario fieldset input::placeholder {
+        
+        font-size: 14px;
+    }
+}
+
+
+
+
+form.formulario fieldset.tamanho-mensagem {
+    
+    height: 100px;
+    border-bottom: 2px solid #dee0e6;
+    padding: 0;
+}
+
+form.formulario fieldset input.tamanho-mensagem {
+    
+    border: none;
+}
+
+form.formulario fieldset button.bt-redondo.enviar {
+    
+    width: 170px;
+    height: 50px;
+    background: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    form.formulario fieldset button.bt-redondo.enviar {
+        
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    
+    form.formulario fieldset button.bt-redondo.enviar {
+        
+        height: 40px !important;
+        font-size: 14px !important;
+    }
+}
+
+
+
+
+
+/***************** FINAL DA SEÇÃO DE  FORMULARIO *********************/
+
+
+
+
+
+
+/*********** ESTILIZANDO AREA DE INFORMAÇOES DE CONTATO **********/
+
+
+
+
+
+section.container_16 div.grid_5 div.informacoes {
+ 
+    padding-top: 180px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 60px;
+    line-height: 17px;
+    color: #4f5863;
+  
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    
+     div.grid_5.tamanho {
+        
+        padding: 0px;
+        width: 50% !important;
+        
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    
+    div.grid_5.tamanho {
+        
+        width: 100%;
+        
+    }
+    
+    section.container_16 div.grid_5 div.informacoes {
+        
+
+        display: flex;
+        flex-direction: column;
+        word-break: break-all;
+        padding-left: 0px;
+        padding-right: 0px;
+   
+    }
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    
+     div.grid_5.tamanho {
+        
+        width: 100% !important;
+        
+    }
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    section.container_16 div.grid_5 div.informacoes {
+        
+        padding-left: 0px;
+        padding-right: 0px;
+        box-sizing: border-box;
+        padding: 60px 10px 0 10px;
+    }
+    
+    section.container_16 div.grid_5 div.informacoes 
+    p span {
+        
+        font-size: 12px;
+        padding-left: 15px;
+        word-break: break-all;
+    }
+}
+
+
+
+section.container_16 div.grid_5 div.informacoes p {
+    
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 25px;
+    font-weight: bold;
+
+
+}
+
+
+section.container_16 div.grid_5 div.informacoes p span {
+    
+    padding-left: 24px;
+
+    
+}
+
+
+
+section.container_16 div.grid_5 div.informacoes 
+p span.espaco-direita {
+    
+    padding-right: 100px;
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    section.container_16 div.grid_5 div.informacoes 
+    p span.espaco-direita {
+        
+        padding-right: 50px;
+    }
+}
+
+
+section.container_16 div.grid_5 div.informacoes 
+p span.espaco-direita-30 {
+    
+    padding-right: 30px;
+}
+
+
+section.container_16 div.grid_5 div.informacoes 
+p.texto-logo-tipo span {
+    
+    font-size: 13px;
+    font-weight: normal;
+    color: #9aa0ad;
+    padding-left: 0px;
+    padding-right: 40px;
+    
+}
+
+
+section.container_16 div.grid_5 div.informacoes 
+p.texto-logo-tipo.posicao {
+    
+    padding-top: 65px;
+}
+
+
+
+@media screen and (max-width: 940px) {
+    
+    
+    div.informacoes p.texto-logo-tipo.posicao {
+        
+        padding-top: 40px !important;
+    }
+}
+
+
+
+
+
+
+
+
+/***************** IMAGEM DA DIREITA FORMULARIO DE CONTATO *************/
+
+
+
+
+
+.imagem-direita {
+    
+    display: block;
+    width: 100%;
+    margin-left: 210px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    
+    .imagem-direita {
+        
+        display: none;
+       
+    }
+    
+    div.grid_5.imagem-destaque-direita {
+        
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    
+    
+    div.grid_5.imagem-destaque-direita {
+        
+        display: none;
+    }
+}
+
+
+
+
+.tamanho-original {
+    
+    height: 24px;
+    padding-right: 10px;
+    
+}
+
+
+/**************** IFINAL IMAGEM DA DIREITA FORMULARIO DE CONTATO ***********/
+
+
+
+
+h3.texto-titulo-secao {
+    
+    padding-left: 40px;
+    padding-bottom: 60px;
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+    
+    h3.texto-titulo-secao {
+        
+        font-size: 28px;
+        padding-left: 0px;
+        text-align: center;
+        padding-bottom: 0px !important;
+    }
+}
+
+
+
+
+/************************* SEÇÃO DE ESTILO DE BOTOES *****************************/
+
+
+
+.bt-redondo {
+    
+   border-radius: 40px;
+   border: 3px solid #e77c19;
+   color: #e77c19;
+   display: block;
+   width: 160px;
+   height: 50px;
+   background: none;
+   font-size: 14px;
+   font-weight: bold;
+   
+}
+
+
+
+.bt-redondo:hover {
+    
+    color: #fff !important;
+    background: #e77c19 !important;
+}
+
+
+
+
+
+.bt-redondo.saiba-mais {
+    
+    width: 123px;
+    height: 37px;
+    background: none;
+}
+
+
+
+
+.bt-redondo.saiba-mais.tamanho-maior {
+    
+    font-size: 16px;
+    font-weight: bold;
+    width: 272px;
+    height: 48px;
+    margin-top: 30px;
+    color: #e77d2d;
+    
+}
+
+@media screen and (max-width: 940px) {
+    
+    .bt-redondo.saiba-mais.tamanho-maior {
+        
+        width: 235px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    
+    .bt-redondo.saiba-mais.tamanho-maior {
+        
+        width: 223px !important;
+        display: block !important;
+        margin: 0 auto !important;
+    }
+}
+
+
+
+.bt-redondo.vitrine {
+    
+    width: 230px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    color: #e77d2d;
+}
+
+@media screen and (max-width: 940px) {
+    
+    .bt-redondo.vitrine {
+        
+        width: 170px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    
+    .bt-redondo.vitrine {
+        
+        width: 230px !important;
+        height: 60px !important;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+/**************** FINAL DA SEÇÃO DE BOTOES ********************/
+
+
+
+
+/******** ESPAÇAMENTOS DIVISAO DE CONTAINERS NA PAGINA *********/
+
+
+.spacer4 {
+    
+    padding: 2px 0px;
+}
+
+.spacer100 {
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    
+    .spacer100 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+}
+
+
+.spacer60 {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+
+/********* FINAL DE ESPAÇAMENTOS DIVISAO DE CONTAINES NA PAGINA *****/
+
+
+
+
+/************** AREA DE MENU SLIDER LATERAL *******************/
+
+
+a.menuIcon div {
+  
+  display: none;
+  width: 35px;
+  height: 5px;
+  background-color: #e77c19;
+  margin: 6px 0;
+    
+}
+
+div.topo .menu .menuLista {
+    
+    display: block;
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+
+
+.closebtn {
+    
+    display: none;
+}
+
+
+@media only screen and (max-width: 940px) {
+    
+    div.topo .menu .menuLista {
+        
+        width: 0;
+        display: block;
+
+    }
+    
+    .closebtn {
+        
+        display: block;
+        position: relative;
+        width: 32px;
+        height: 32px;
+        padding: 20px;
+        left: 10px;
+    
+    }
+    
+    .closebtn:hover {
+        
+      opacity: 1;
+    }
+    
+    
+    .closebtn:before, .closebtn:after {
+        
+      position: absolute;
+      left: 30px;
+      content: ' ';
+      height: 33px;
+      width: 2px;
+      background-color: #e77c19;
+    }
+    
+    
+    .closebtn:before {
+        
+      transform: rotate(45deg);
+    }
+    
+    
+    .closebtn:after {
+        
+      transform: rotate(-45deg);
+    }
+ 
+    
+     a.menuIcon div {
+        
+        display: block;
+        background-color: #e77c19;
+     }
+    
+    a.menuIcon {
+        
+         position: relative;
+         left: 60%;
+         
+    }
+    
+   
+    
+   div.topo .menu .menuLista {
+        
+        display: block;
+        position: fixed;
+        width: 40%;
+        top: 0;
+        left: -40%;
+        height: 100%;
+        z-index: 9999;
+        background: #fff;
+        text-align: left;
+       -webkit-transition: 0.5s; /* For Safari 3.1 to 6.0 */
+        transition: 0.5s;
+    
+    }
+    
+    div.topo .menu .menuLista li {
+    
+            display: block !important;
+            font-size: 20px;
+            border-top: 1px solid #dee0e6;
+            padding: 50px;
+            padding-left: 30px !important;
+    
+    }
+    
+    div.topo .menu .menuLista li a {
+        
+        color: #4f5863;
+        float: left;
+
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+    
+    
+    div.topo div.grid_11.prefix_3 ul.menu div.menuLista li {
+ 
+        text-align: left;
+        padding: 30px;
+        margin: 0;
+    }
+    
+    .bt-redondo {
+        
+        width: 40% !important;
+        font-size: 13px;
+        border-radius: 70px;
+    }
+    
+    div.topo .menu .menuLista {
+        
+        width: 0;
+        display: block;
+
+    }
+    
+    .closebtn {
+        
+           display: block;
+           position: relative;
+           float: none;
+           width: 20px;
+           height: 20px;
+           left: 20px;
+    }
+    
+    
+     a.menuIcon div {
+        
+        display: block;
+        background-color: #e77c19;
+        margin: 3px 0px;
+     }
+    
+    a.menuIcon {
+        
+         position: relative;
+         left: 45%;
+         
+    }
+    
+   
+    
+   div.topo .menu .menuLista {
+        
+        display: block;
+        width: 80%;
+        position: fixed;
+        top: 0;
+        left: -80%;
+        height: 100%;
+        z-index: 9999;
+        background: #fff;
+        text-align: left;
+        transition: 0.5s !important; 
+    
+    }
+    
+    div.topo .menu .menuLista li {
+    
+        display: block !important;
+        font-size: 13px;
+        border-top: 1px solid #dee0e6;
+        padding-left: 30px !important;
+        
+    }
+    
+    div..topo .menu .menuLista li a {
+        
+        color: #4f5863;
+        padding: 20px;
+    }
+    
+    
+}
+
+
+
+
+/****************** FINAL DA AREA DE MENU SLIDER LATERAL ********************/
+
+
+
+
+
+/************ CLASSE ACTIVE ALTERNAR MENU SLIDER COM JQUERY ******************/
+
+.active {
+        
+        left: 0% !important;
+         -webkit-transition: 0.5s !important;
+        transition: 0.5s !important;
+}
+
+
+
+
+
+
+
